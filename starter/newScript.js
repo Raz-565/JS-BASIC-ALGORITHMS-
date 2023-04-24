@@ -6,4 +6,20 @@ function reverseString(str) {
     return newString;
 }
 
-console.log(reverseString("hello"));
+
+function factorialize(num) {
+    let fac = 1
+   for (let i = fac; i <= num; i++){
+       fac *= i
+   }
+    return fac;
+}
+
+function recursiveFactorial (num) {
+    if (num === 0 || num === 1) {
+        return 1;
+    }
+    return num * recursiveFactorial(num - 1);
+}
+
+
